@@ -3,69 +3,124 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ahmad Sweity Portfolio</title>
+    <title>Exercise 2</title>
+    <meta name="author" content="Ahmad Sweiti" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="header">
-      <img src="Ahmed.jpeg" alt="Profile Picture" class="profile-img" />
-      <h1>Ahmad Sweity</h1>
-      <p>Front-End Developer & Computer Engineering Student</p>
+      <h1>John Doe</h1>
+      <p>Full stack Devloper | Designer | programmer</p>
+      <br />
+      <nav>
+        <a
+          class="button"
+          href="
+        #me"
+          >About me </a
+        >&nbsp;&nbsp; <a class="button" href="#Skills">Skills</a> &nbsp;&nbsp;
+        <a class="button" href="#Projects">projecrs</a>&nbsp;&nbsp;
+        <a class="button" href="#contact">contact</a>
+      </nav>
     </header>
+    <main>
+      <section id="me">
+        <h2>About me</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+          quibusdam aperiam nostrum cumque molestias? Facilis quisquam, placeat
+          modi aspernatur reiciendis in minus tempora quos eius a asperiores,
+          quidem delectus iusto.
+          <br />
 
-    <section id="about" class="section about">
-      <h2>About Me</h2>
-      <img src="About-me.jpg" alt="About Image" class="about-img" />
-      <p>
-        Hello! I'm Ahmad, a front-end developer and student at Palestine
-        Polytechnic University.
-      </p>
-    </section>
-
-    <section id="skills" class="section skills">
-      <h2>Skills</h2>
-      <ul>
-        <li class="skill-item">HTML</li>
-        <li class="skill-item">CSS</li>
-        <li class="skill-item">JavaScript</li>
-        <li class="skill-item">Fast typing</li>
-      </ul>
-    </section>
-
-    <section id="projects" class="section projects">
-      <h2>Projects</h2>
-      <div class="project-card">
-        <img
-          src="project 1.jpg"
-          alt="Project 1 Image"
-          class="project-img"
-          width="150"
-          height="150"
-        />
-        <h3>Project 1</h3>
-        <p>The first Project</p>
+          <img class="ball" src="./img/ball.png" alt="" />
+        </p>
+      </section>
+      <section id="Skills">
+        <h2>Skills</h2>
+        <br />
+        <div>
+          <div>Html5&CSS3</div>
+          <div>JavaScript</div>
+          <div>React&Radix</div>
+          <div>Nodejs & Express</div>
+          <div>SQL & NOSQL Database</div>
+          <div>Git & GitHub</div>
+          <div>Responsve design</div>
+        </div>
+      </section>
+      <section id="Projects">
+        <h2>Projects</h2>
+        <div class="Portfolio">
+          <h3>Portfolio wensite</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptates, quidem incidunt. Eos, ipsam accusamus? Quas.
+          </p>
+        </div>
+        <div class="E-commerce">
+          <h3>E-commerce Site</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptates, quidem incidunt. Eos, ipsam accusamus? Quas.
+          </p>
+        </div>
+        <div class="Task">
+          <h3>Task management app</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptates, quidem incidunt. Eos, ipsam accusamus? Quas.
+          </p>
+        </div>
+        <div class="Blog">
+          <h3>Blog paltform</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptates, quidem incidunt. Eos, ipsam accusamus? Quas.
+          </p>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>contact me</h2>
+        <div>
+          if you'd like to get in touch , please fill out the form below :
+        </div>
+        <form action="" method="post">
+          <label for="name">Name:</label>
+          <br />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter your name "
+          />
+          <br />
+          <label for="ema">Email:</label> <br />
+          <input
+            type="email"
+            id="ema"
+            name="emai"
+            placeholder="Enter your Email"
+            autocomplete="on"
+          />
+          <br />
+          <label for="Mess">Message</label><br />
+          <textarea
+            name="Mess"
+            id="Mess"
+            placeholder="Enter your message"
+          ></textarea>
+          <br />
+          <input class="but" type="button" value="Submit" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div>
+        &copy; 2024 john Doe |
+        <a href="https://github.com/ahmad03sweity">GitHub</a> |
+        <a href="https://www.linkedin.com/in/ahmadsweity/">linkedIn</a>
       </div>
-      <div class="project-card">
-        <img
-          src="images.png"
-          alt="Project 2 Image"
-          class="project-img"
-          width="150"
-          height="150"
-        />
-        <h3>Project 2</h3>
-        <p>The second Project</p>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact">
-      <h2>Contact</h2>
-      <form>
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea placeholder="Your Message"></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </section>
+    </footer>
   </body>
 </html>
